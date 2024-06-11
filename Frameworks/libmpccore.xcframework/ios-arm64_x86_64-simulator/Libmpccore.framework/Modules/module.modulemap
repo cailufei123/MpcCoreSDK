@@ -1,0 +1,8 @@
+framework module "Libmpccore" {
+	header "ref.h"
+    header "Mpccore.objc.h"
+    header "Universe.objc.h"
+    header "Libmpccore.h"
+
+    export *
+}
